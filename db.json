@@ -33,6 +33,7 @@
                 }
             },
             "library": {
+                {
                     "name": "lib1",
                     "target": "cluster1"
                 },
