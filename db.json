@@ -1,15 +1,15 @@
-{
+[
     "domain_definition": {
         "domain": {
-            "cluster": [
+            "cluster": {
                 {
                     "name": "cluster1"
                 },
                 {
                     "name": "cluster2"
                 }
-            ],
-            "server": [
+            },
+            "server": {
                 {
                     "name": "server11",
                     "cluster": "cluster1",
@@ -30,9 +30,8 @@
                     "cluster": "cluster2",
                     "port": "9090"
                 }
-            ],
-            "library": [
-                {
+            },
+            "library": {
                     "name": "lib1",
                     "target": "cluster1"
                 },
@@ -40,7 +39,7 @@
                     "name": "lib2",
                     "target": "cluster2"
                 }
-            ]
+            }
         }
     }
-}
+]
