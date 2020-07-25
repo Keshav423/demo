@@ -1,4 +1,5 @@
 [
+  {
     "domain_definition": {
         "domain": {
             "cluster": {
@@ -42,4 +43,5 @@
             }
         }
     }
+  }
 ]
